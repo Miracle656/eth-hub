@@ -1,0 +1,64 @@
+.navigate{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a, button{
+    color:white;
+    text-decoration: none;
+}
+
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: grey;
+}
+
+.ethlogo{
+    /* width: 150px; */
+    height: 70px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links .links{
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+button {
+    display: flex;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 2px;
+    padding: .5rem;
+    border-radius: 2rem;
+    background-color: grey;
+    
+}
+
+
+
+.cta{
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.cta:hover{
+    background-color: white;
+    color: grey;
+}

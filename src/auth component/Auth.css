@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.authcomp{
+    background-color: grey;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    height: 100vh !important;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max_logo {
+    position: absolute;
+    top: 29rem;
+    right: 0;
+    height: 250px;
+    width: 250px;
+}
+
+
+.inputfield input {
+    margin-bottom: 1rem;
+    padding: .7rem;
+    width: 17rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+}
+
+.prof_large{
+    font-size: 4rem;
+    color: white;
+}
+
+.santa{
+    position: fixed;
+    height: 3rem;
+    left: 33.9rem;
+    bottom: 29.3rem;
+}
+
+.whylog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.google_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google_button .gbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: grey;
+    border-radius: 1rem;
+   
+}
+
+.google_button .gbtn p{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    display: flex;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 2px;
+    padding: .5rem;
+    border-radius: 2rem;
+    background-color: grey;
+}
+
+.container{
+    position: relative;
+    z-index: 1;
+}
+
+.container .c_t_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    transition: text-decoration 0.3s ease;
+    color: grey;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.signup .suicon{
+    margin-right: 2px;
+}
+
+.signup:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+li .connect {
+    transition: background-color 0.3s ease;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+li .connect:hover {
+    background-color: white;
+    color: grey;
+}
+
+.c_t_a .login {
+    color: white;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.c_t_a .login:hover {
+    color: grey;
+    background-color: white;
+}
+
+.login .logicon{
+    margin-right: 2px;
+}
+
+
+
+.mini_logo {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.header_connect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+
+.inputfield {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 1rem;
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+    color: grey;
+}
+
+.foot_cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_cta p, .signup{
+    padding-top: 10px;
+}
+
+/* @media only screen and (max-width: 768px) {
+    
+} */

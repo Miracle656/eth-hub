@@ -1,0 +1,18 @@
+.chat-header {
+  /* background-color: #1da789a6; */
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.chat-header img{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 2rem;
+  margin-right: 0.5rem;
+}
+
+.chat-header h2{
+    color: black;
+}

@@ -1,0 +1,31 @@
+.panel{
+    border-radius: .5rem .5rem .0rem .0rem;
+    height: 35rem;
+    width: 20rem;
+    background-color: white;
+    border: .5px solid grey;
+    /* position: relative;
+    top: 0;
+    transition: all .5s ease; */
+}
+
+.panel .pane-ctrl{
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 4rem;
+    border-radius: .5rem .5rem .0rem .0rem;
+    background-color: grey;
+}
+
+/* .panel:hover{
+    top: 200px;
+} */
+
+
+.pane-ctrl .paneico{
+    cursor: pointer;
+}
