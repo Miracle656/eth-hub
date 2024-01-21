@@ -4,6 +4,8 @@ import uuid from 'react-uuid'
 import Navbar from '../Navbar'
 import ChatPanel from './ChatPanel'
 import './Home.css'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const baseURL = "https://newsapi.org/v2/everything?q=web3&apiKey=d8addbb941e94ffca0f7086b6c4e0e2a"
 
@@ -35,6 +37,7 @@ function Home() {
       <Navbar className='nav__bar' />
       <h3 className="home">Home</h3>
       <div className='feed-cont'>{feeds}</div>
+      <div>In case you don't see any feeds then my product key has expired and if you know where i can fetch crypto news for free then email it to me</div>
 
       {/* <div className="panecov">
         <ChatPanel className='chat__panel' />
